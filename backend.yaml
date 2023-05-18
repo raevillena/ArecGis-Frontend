@@ -13,7 +13,7 @@ spec:
         app: backend
     spec:
       containers:
-      - name: react
+      - name: backend
         image: kowbee/arecgis:v1
         ports:
-        - containerPort: 3002
+        - containerPort: 3001
