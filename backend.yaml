@@ -1,19 +1,19 @@
 kind: Deployment
 apiVersion: apps/v1
 metadata:
-  name: react
+  name: backend
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
-      app: react
+      app: backend
   template:
     metadata:
       labels:
-        app: react
+        app: backend
     spec:
       containers:
       - name: react
-        image: kowbee/react:v2
+        image: kowbee/arecgis-app:v2
         ports:
-        - containerPort: 80
+        - containerPort: 3002
