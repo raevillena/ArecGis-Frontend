@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: kowbee/arecgis:v1
+        image: kowbee/gis-api:v2
         ports:
         - containerPort: 3001
       dnsPolicy: Default

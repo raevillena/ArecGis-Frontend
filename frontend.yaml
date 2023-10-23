@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: react
-        image: kowbee/react-app:v1
+        image: kowbee/gis-client:v2
         ports:
         - containerPort: 80
