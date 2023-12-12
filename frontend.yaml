@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: react
-        image: kowbee/gis-client:v3
+        image: kowbee/arec-client:v1
         ports:
         - containerPort: 80
